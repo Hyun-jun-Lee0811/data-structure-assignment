@@ -70,6 +70,15 @@
     <Filter Include="16">
       <UniqueIdentifier>{a3c88188-302a-4cf7-b1c8-7f8da6d3cbd1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DataStructure">
+      <UniqueIdentifier>{6f78c019-939d-41d8-99dc-674424e7d595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructure\test">
+      <UniqueIdentifier>{8da5fc3f-9724-43cb-af24-02b623facc45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructure\01_Assignment">
+      <UniqueIdentifier>{a052fcd2-b4eb-4bd5-b930-e06c75af5766}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Assignment01.c">
@@ -184,6 +193,14 @@
     <ClCompile Include="Assignment16\calculator.c">
       <Filter>16</Filter>
     </ClCompile>
+    <ClCompile Include="CircularLinkedList\CLinkedList.c" />
+    <ClCompile Include="CircularLinkedList\main.c" />
+    <ClCompile Include="DataStructure2\Tesst\test.c">
+      <Filter>DataStructure\test</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStructure2\Assignment01\assignment01.c">
+      <Filter>DataStructure\01_Assignment</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Assignment03\my_fraction.h">
@@ -239,6 +256,7 @@
     <ClInclude Include="Assignment16\calculator.h">
       <Filter>16</Filter>
     </ClInclude>
+    <ClInclude Include="CircularLinkedList\CLinkedList.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Assignment07\name_list.txt">
@@ -253,7 +271,6 @@
     <None Include="Assignment04\README.md">
       <Filter>04_GCD_Fibonacci_Profiling</Filter>
     </None>
-    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="01_Bit_Analysis">
@@ -395,7 +412,6 @@
     <ClInclude Include="Assignment10\Bonus\sparseMatrix.h">
       <Filter>10_Sequential_List\Bonus</Filter>
     </ClInclude>
-    <ClInclude Include="resource.h" />
     <ClInclude Include="Assignment11\arrayList.h">
       <Filter>11_Polynomial</Filter>
     </ClInclude>
