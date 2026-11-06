@@ -284,7 +284,10 @@
     <ClCompile Include="DataStructure2\Assignment11\assignment11.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="DataStructure2\Assignment12\assignment12.c" />
+    <ClCompile Include="DataStructure2\Assignment12\assignment12.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="DataStructure2\Assignment13\assignment13.c" />
     <ClCompile Include="DataStructure2\Tesst\test.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

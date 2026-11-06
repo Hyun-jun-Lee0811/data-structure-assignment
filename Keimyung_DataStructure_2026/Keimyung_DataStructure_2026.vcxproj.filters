@@ -112,6 +112,9 @@
     <Filter Include="DataStructure\12">
       <UniqueIdentifier>{f4b29771-06ee-4b63-b96d-f437da465ef8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DataStructure\13">
+      <UniqueIdentifier>{c213856e-2561-45e0-add6-2d046666ac51}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Assignment01.c">
@@ -295,6 +298,11 @@
     <ClCompile Include="DataStructure2\Assignment12\assignment12.c">
       <Filter>DataStructure\12</Filter>
     </ClCompile>
+    <ClCompile Include="CircularLinkedList\CLinkedList.c" />
+    <ClCompile Include="CircularLinkedList\main.c" />
+    <ClCompile Include="DataStructure2\Assignment13\assignment13.c">
+      <Filter>DataStructure\13</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Assignment03\my_fraction.h">
@@ -350,6 +358,7 @@
     <ClInclude Include="Assignment16\calculator.h">
       <Filter>16</Filter>
     </ClInclude>
+    <ClInclude Include="CircularLinkedList\CLinkedList.h" />
     <ClInclude Include="CircularLinkedList\CLinkedList.h" />
     <ClInclude Include="CircularLinkedList\CLinkedList.h" />
     <ClInclude Include="CircularLinkedList\CLinkedList.h" />
